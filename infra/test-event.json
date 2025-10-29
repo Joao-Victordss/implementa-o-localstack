@@ -1,0 +1,16 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "ingestor-raw"
+        },
+        "object": {
+          "key": "test/20251029-161009-test-file.txt",
+          "size": 100,
+          "eTag": "abc123"
+        }
+      }
+    }
+  ]
+}

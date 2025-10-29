@@ -46,6 +46,17 @@ Sistema completo desenvolvido com **NestJS** (backend) e **Next.js** (frontend),
 
 3. **npm** ou **yarn** (geralmente vem com o Node.js)
 
+4. **AWS CLI** ou **awslocal** (para scripts de infra/Lambda)
+   - **Opção 1 - awslocal** (recomendado para LocalStack):
+     ```powershell
+     pip install awscli-local
+     ```
+   - **Opção 2 - AWS CLI v2**:
+     ```powershell
+     winget install Amazon.AWSCLI
+     ```
+     ou baixe de: https://aws.amazon.com/cli/
+
 ## 🚀 Como Configurar e Executar
 
 ### Passo 1: Instalar o LocalStack
